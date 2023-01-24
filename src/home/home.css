@@ -1,0 +1,80 @@
+.form-input {
+    background-color: #343A40;
+    color: #e6e6e6;
+    font-size: 17px;
+    width: 90%;
+    height: 115px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    resize: none;
+}
+
+.form {
+    position: absolute;
+    top: 120px;
+    width: 600px;
+    height: 155px;
+    border-radius: 10px;
+  }
+
+  
+.post-msg-input {
+    flex-grow: 1;
+    resize: none;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.post-msg-input,
+.post-msg-input::placeholder {
+    color: white;
+}
+
+.btn-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error-msg {
+    padding: 7px 4px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #721C24;
+    background: #F8D7DA;
+    border: 1px solid #F5C6CB;
+    border-radius: 4px;
+}
+
+.msg-container {
+    width: 100%;
+    min-height: 330px;
+    margin-top: 200px;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100px;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+    background: #343A40;
+    border-radius: 6px;
+    word-wrap: break-word;
+}
+
+.msg-header {
+    display: flex;
+    justify-content: space-between;
+    color: #6C757D;
+    margin-bottom: 16px;
+}
+
+.msg-content {
+    flex-grow: 1;
+}

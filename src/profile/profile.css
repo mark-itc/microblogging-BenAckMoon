@@ -1,0 +1,23 @@
+#username {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-bottom: 22px;
+    color: white;
+    background: #343A40;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+label {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.save-btn {
+    align-self: flex-end;
+}
